@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dev-tests",
+      "handler": "dev-test.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dev-tests/count",
+      "handler": "dev-test.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dev-tests/:id",
+      "handler": "dev-test.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dev-tests",
+      "handler": "dev-test.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dev-tests/:id",
+      "handler": "dev-test.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dev-tests/:id",
+      "handler": "dev-test.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
